@@ -1,0 +1,157 @@
+[
+    {
+        "id": "intro_profile",
+        "content": "A user on a social network is reading posts about recent news."
+    },
+    {
+        "id": "content_dems_large",
+        "content": "The user is a {age} year old {race} {sex} with {education} who self-identifies as {party}."
+    },
+    {
+        "id": "content_dems",
+        "content": "The user is a {age} {race} {sex} who self-identifies as {party}."
+    },
+    {
+        "id": "p_void",
+        "content": "{content_dems} "
+    },
+    {
+        "id": "p_moderate",
+        "content": "{content_dems} The user's profile indicates that they are curious and open to new experiences, highly organized and dependable, moderately social, empathetic and cooperative, and usually calm but sometimes self-doubting under stress."
+    },
+    {
+        "id": "p_conspirator",
+        "content": "{content_dems} The user's profile indicates a receptiveness to conspiracy theories and an inclination to believe in hidden agendas due to low agreeableness. Low conscientiousness suggests a tendency to share information impulsively without thorough fact-checking, while high extraversion drives enthusiasm for spreading it socially. High neuroticism amplifies feelings of fear and urgency, increasing susceptibility to believing and disseminating conspiracy news."
+    },
+    {
+        "id": "p_rational",
+        "content": "{content_dems} The user's profile indicates a strong value for evidence and critical thinking, with high openness to new ideas and perspectives. Strong conscientiousness ensures thoughtful, fact-checked communication, while moderate agreeableness reflects trust in credible sources while remaining discerning. Emotional stability and a calm demeanor support an objective approach to information, reducing impulsive reactions or susceptibility to misinformation."
+    },
+    {
+        "id": "p_open",
+        "content": "The user's profile indicates a curious and adventurous nature, always eager to explore the unknown and try new things. A creative and imaginative disposition fuels their passion for novelty, drawing inspiration from the artistic, musical, and aesthetic aspects of life. Fearless and reflective, they embrace change and thrive in environments that challenge their ingenuity."
+    },
+    {
+        "id": "p_cons",
+        "content": "The user's profile indicates a strong sense of responsibility and thoroughness. Meticulous and focused, they take pride in being reliable and efficient, often going above and beyond to ensure tasks are done well. Planning and perseverance are key traits, with a dedication to achieving goals with care and attention to detail."
+    },
+    {
+        "id": "p_extr",
+        "content": "The user's profile indicates that their energy and enthusiasm make them the life of the party. Outgoing and sociable, they are always ready for interaction. People are drawn to their lively and chatty nature, and they enjoy meeting new people and engaging in vibrant conversations. Their extroverted personality keeps them energized by the connections they make with others."
+    },
+    {
+        "id": "p_agre",
+        "content": "The user's profile indicates that they are compassionate and considerate, naturally cooperative and helpful, always looking out for the well-being of others. Their friendly and easygoing demeanor makes it easy for people to trust and rely on them. They value harmony in relationships and are known for their kindness and willingness to forgive."
+    },
+    {
+        "id": "p_neur",
+        "content": "The user's profile indicates that they are sensitive to emotional fluctuations, often feeling overwhelmed or anxious. Life's challenges can leave them feeling tense or uncertain, and they may wrestle with worries and stress. However, they are also very introspective, trying to make sense of their emotions, which can lead to periods of restlessness or moodiness."
+    },
+    {
+        "id": "p_mach",
+        "content": "The user's profile indicates that they possess a strategic mindset, always thinking ahead and calculating their moves with precision. Cunning and pragmatic, they are unafraid to use opportunities to their advantage. Their ability to think critically and manipulate situations can sometimes give them an edge in achieving their goals, though it may come across as cold or calculating."
+    },
+    {
+        "id": "p_narc",
+        "content": "The user's profile indicates that they are self-assured and confident, taking pride in their achievements and often seeking recognition for their talents. With a strong sense of self-worth, they enjoy being the center of attention. At times, this can translate into a desire to be admired or validated, and they may project a glamorous image that highlights their success."
+    },
+    {
+        "id": "p_psyc",
+        "content": "The user's profile indicates that they are bold and fearless, not easily deterred by risks. While others may hesitate, they move forward with a calculated intensity, unconcerned by emotional or social consequences. Their impulsive nature and unrelenting drive can sometimes come off as aggressive, but their cold and unflinching approach makes them a powerful force in any situation."
+    },
+    {
+        "id": "context",
+        "content": "The user reads a post with the following news.",
+        "content_img": "The user reads a post with the following news, consisting of text and an image."
+    },
+    {
+        "id": "context_strict",
+        "content": "The user reads a post with the following news. The truthfulness of this news is uncertain, and the user has no additional information beyond what is provided here.",
+        "content_img": "The user reads a post with the following news, consisting of text and an image. The truthfulness of this news is uncertain, and the user has no additional information beyond what is provided here."
+    },
+    {
+        "id": "ask_3rd",
+        "content": "The user replies ",
+        "completion_mode": "True"
+    },
+    {
+        "id": "ask_user_gen",
+        "content": "Generate the user's response based on their described profile."
+    },
+    {
+        "id": "ask_user_dsc",
+        "content": "Describe how the user would reply based on their profile."
+    },
+    {
+        "id": "ask_user_dsc_void",
+        "content": "Describe how the user would reply."
+    },
+    {
+        "id": "ask_img",
+        "content": "",
+        "content_img": "The user is asked to describe how the image is linked to the news."
+    },
+    {
+        "id": "ask_true",
+        "content": "The user is asked whether they believe the news is truthful, prompted to start their answer with YES or NO before explaining their reasoning."
+    },
+    {
+        "id": "ask_share",
+        "content": "The user is asked whether they want to repost and share the news with their followers, prompted to start their answer with YES or NO before explaining their reasoning."
+    },
+    {
+        "id": "ask_share_likert5",
+        "content": "The user is asked whether they want to repost and share the news with their followers, prompted to respond with a single line containing only the Likert scale rating in the format 'L#' (e.g., 'L1' for Strongly Disagree to repost, 'L2' for Disagree to repost, 'L3' for Neutral, 'L4' for Agree to repost, 'L5' for Strongly Agree to repost), followed by an explanation of their reasoning. The user must select exactly one Likert value, not a range or multiple ratings."
+    },
+
+    {
+        "id": "ask_share_noexplain",
+        "content": "The user is asked whether they want to repost and share the news with their followers, based solely on the information provided. They should reply with YES or NO."
+    },
+    {
+        "id": "ask_share_noexplain_likert5",
+        "content": "The user is asked whether they want to repost and share the news with their followers, based solely on the information provided. They should reply with a single line containing only the Likert scale rating in the format 'L#' (e.g., 'L1' for Strongly Disagree to repost, 'L2' for Disagree to repost, 'L3' for Neutral, 'L4' for Agree to repost, 'L5' for Strongly Agree to repost). The user must select exactly one Likert value, not a range or multiple ratings."
+    },
+    {
+        "id": "ask_share_strict",
+        "content": "The user is asked whether they want to repost and share the news with their followers, starting their answer with YES or NO, followed by an explanation based solely on the content provided. They are reminded that they have no means to verify the accuracy before deciding whether to share it."
+    },
+    {
+        "id": "ask_share_strict_likert5",
+        "content": "The user is asked whether they want to repost and share the news with their followers, starting their answer with a single line containing only the Likert scale rating in the format 'L#' (e.g., 'L1' for Strongly Disagree to repost, 'L2' for Disagree to repost, 'L3' for Neutral, 'L4' for Agree to repost, 'L5' for Strongly Agree to repost). The user must select exactly one Likert value, not a range or multiple ratings. They are also asked to explain their reasoning based solely on the content provided, with the note that they have no means to verify its accuracy before deciding whether to share it."
+    },
+    {
+        "id": "reason_base",
+        "content": "The user is asked to think step by step. First, they should reflect on the content of the news and whether it seems truthful, considering only the available information, as they have no means to verify its accuracy.",
+        "content_img": "The user is asked to think step by step. First, they should reflect on the content of the news and whether it seems truthful, considering only the available information, as they have no means to verify its accuracy. Second, they should consider the content of the image and how it relates to the news."
+    },
+    {
+        "id": "reason_3steps",
+        "content": "The user is asked to think step by step. First, they should identify the central message of the news. Second, they should identify the arguments presented to support the message of the news, if any. Third, they should evaluate whether the central message and supporting arguments align with their knowledge of the world and their personality.",
+        "content_img": "The user is asked to think step by step. First, they should identify the central message of the news. Second, they should identify the arguments and elements in the accompanying image that support the message, if any. Third, they should evaluate whether the central message and supporting arguments align with their knowledge of the world and their personality."
+    },
+    {
+        "id": "reason_share",
+        "content": "Lastly, the user is asked to decide whether they want to repost and share the news with their followers, concluding their reasoning with either <YES> or <NO>."
+    },
+    {
+        "id": "reason_share_likert5",
+        "content": "Lastly, the user is asked to decide how likely they are to repost and share the news with their followers, concluding their reasoning with a single line containing only the Likert scale rating in the format 'L#' (e.g., 'L1' for Strongly Disagree to repost, 'L2' for Disagree to repost, 'L3' for Neutral, 'L4' for Agree to repost, 'L5' for Strongly Agree to repost). The user must select exactly one Likert value, not a range or multiple ratings."
+    },
+    {
+        "id": "reason_share_delimit",
+        "content": "Lastly, the user is asked to decide whether they want to repost and share the news with their followers, structuring their answer as follows:\n###\n<your reasoning>\n###\n<YES> or <NO>\n###"
+    },
+    {
+        "id": "reason_share_xml",
+        "content": "Lastly, the user is asked to decide whether they want to repost and share the news with their followers, structuring their answer as follows:\n<reason>your reasoning</reason>\n<decision><YES> or <NO></decision>"
+    },
+    {
+        "id": "check_text",
+        "content": "Does the following text explicitly state whether the news content is true, false, or flagged? Reply with YES or NO. If the news is not in English, just reply YES."
+    },
+    {
+        "id": "gen_profile",
+        "content": "Given the following personality keywords, generate a short user's profile."
+    }
+]

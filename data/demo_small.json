@@ -1,0 +1,18 @@
+{
+    "sex": [
+            "female",
+            "male"
+    ],
+    "race": [
+            "black",
+            "white"
+    ],
+    "age": [
+            "young",
+            "old"
+    ],
+    "party": [
+            "Democratic",
+            "Republican"
+    ]
+}

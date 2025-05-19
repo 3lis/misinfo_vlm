@@ -1,0 +1,34 @@
+[
+    {
+        "trait": "Openness",
+        "keywords": "Original, novelty, curious, different, ingenious, active, imaginative, inventive, artistic, aesthetic, reflective, sophisticated, artistic, musical, literate, unpredictable, fearless, open, creative, adventurous, explore, brave, openness"
+    },
+    {
+        "trait": "Conscientiousness",
+        "keywords": "Conscientious, thorough, accurate, reliable, organize, organized, diligent, persevere, persevering, efficient, plan, planning, persist, persistent, focus, focused, careful, work, painstaking, meticulous, scrupulous, particular, selfless, caring, empathetic"
+    },
+    {
+        "trait": "Extraversion",
+        "keywords": "Talkative, outgoing, energetic, enthusiastic, boisterous, assertive, eager, friendly, sociable, lively, social, open, chatty, meet, interaction, energized, public"
+    },
+    {
+        "trait": "Agreeableness",
+        "keywords": "Agreeable, helpful, help, unselfish, altruistic, agree, agreement, forgive, forgiving, trust, trusting, warm, friendly, friend, considerate, kind, polite, cooperate, cooperative, easygoing, accommodating"
+    },
+    {
+        "trait": "Neuroticism",
+        "keywords": "Neurotic, depressed, blue, agitated, stressed, tense, worried, worry, emotionally, emotional, unstable, upset, moody, restless, tense, nervous, unstable, anxiety, compulsive, obsessed, indecisive, maladjusted, anxious, uneasy, irritable"
+    },
+    {
+        "trait": "Machiavellianism",
+        "keywords": "Manipulative, cunning, calculating, strategic, scheming, pragmatic, deceptive, opportunistic, shrewd, ruthless, cold, power-seeking, instrumental, controlling, strategic"
+    },
+    {
+        "trait": "Narcissism",
+        "keywords": "Arrogant, self-centered, egotistical, grandiose, conceited, vain, boastful, self-important, entitled, exhibitionistic, attention-seeking, proud, self-admiring, hubristic, glamorous"
+    },
+    {
+        "trait": "Psychopathy",
+        "keywords": "Callous, impulsive, remorseless, fearless, antisocial, unemotional, ruthless, aggressive, reckless, shallow, cold-hearted, insensible, bold, egocentric, risk-taking"
+    }
+]
