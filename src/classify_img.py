@@ -12,7 +12,6 @@ import      torch
 from        ultralytics     import YOLO
 
 IMG_PATH    = "../imgs"
-# IMG_PATH    = "../imgs_all/imgs_alice"
 
 THRESHOLD   = 0.4   # Minimum fraction of the image that should be covered by people
 
