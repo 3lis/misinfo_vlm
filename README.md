@@ -1,6 +1,6 @@
 # Visual Misinformation in Vision-Language Models
 
-This repository contains the code and dataset for the paper *"I'll believe it when I see it: Images increase misinformation sharing in Vision-Language Models"*.
+This repository contains the code and dataset for the paper *[I'll believe it when I see it: Images increase misinformation sharing in Vision-Language Models](https://arxiv.org/abs/2505.13302)*.
 
 The project investigates how the presence of images influences misinformation resharing behavior in vision-language models (VLMs). It includes simulation tools for persona conditioning, prompt construction, model interfacing, and statistical analysis.
 
